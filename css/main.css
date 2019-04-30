@@ -1,0 +1,10 @@
+/* navbar */
+img#background {
+  width: 100%;
+}
+.default-border {
+  border-left: 5px solid white;
+}
+.active-border {
+  border-left-color: black;
+}
