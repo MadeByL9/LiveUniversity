@@ -5,6 +5,30 @@ img#background {
 .default-border {
   border-left: 5px solid white;
 }
-.active-border {
-  border-left-color: black;
+.active-cyan {
+  border-left-color: #00b8d4;
+}
+
+/* userbar */
+.userbar {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.userbar i {
+  font-size: 3em;
+  font-weight: 100;
+  color: #e0e0e0;
+}
+.userbar #text {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+}
+.userbar #text #company {
+  margin-top: -6px;
 }
