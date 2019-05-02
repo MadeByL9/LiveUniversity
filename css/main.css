@@ -1,3 +1,7 @@
+bold {
+  font-weight: bold !important;
+}
+
 /* navbar */
 img#background {
   width: 100%;
@@ -31,4 +35,66 @@ img#background {
 }
 .userbar #text #company {
   margin-top: -6px;
+}
+
+/* showbar */
+.showbar {
+  border: 1px solid #eeeeee;
+  width: 72%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 25%;
+  margin-top: 2%;
+}
+.showbar #title {
+  margin-left: 3%;
+  font-weight: 400;
+}
+.showbar .line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.showbar #part-1 {
+  display: inline-flex;
+  align-items: center;
+}
+.showbar .date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1em;
+  font-weight: 600;
+  height: 4em;
+  width: 4em;
+  margin: 0.6em;
+  margin-right: 4em;
+}
+.showbar .date #day {
+  font-size: 1.6em;
+  margin-top: 0.1em;
+}
+.showbar .date #mounth {
+  margin-top: -0.5em;
+}
+.showbar #name {
+  display: flex;
+  flex-direction: column;
+}
+.showbar #name p {
+  margin-top: -5px;
+  font-size: 0.7em;
+  color: #757575;
+  font-weight: 600;
+}
+.showbar #collaborators {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.showbar #collaborators p {
+  margin-right: 1em;
 }
