@@ -23,15 +23,22 @@ img#background {
   justify-content: flex-end;
   align-items: center;
 }
+.userbar img {
+  cursor: pointer;
+}
 .userbar i {
   font-size: 3em;
   font-weight: 100;
   color: #e0e0e0;
+  cursor: pointer;
 }
 .userbar #text {
   text-align: right;
   display: flex;
   flex-direction: column;
+}
+.userbar #text #name {
+  cursor: pointer;
 }
 .userbar #text #company {
   margin-top: -6px;
@@ -39,7 +46,8 @@ img#background {
 
 /* showbar */
 .showbar {
-  border: 1px solid #eeeeee;
+  border: 2px solid #eeeeee;
+  border-radius: 8px;
   width: 72%;
   display: flex;
   flex-direction: column;
@@ -50,6 +58,29 @@ img#background {
 .showbar #title {
   margin-left: 3%;
   font-weight: 400;
+}
+.showbar #search {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+.showbar #search-with-icon {
+  border: 1px solid #eeeeee;
+  border-radius: 8px;
+  padding-bottom: 0.35em;
+  padding-left: 0.2em;
+  padding-top: 0.3em;
+  padding-right: 0.2em;
+  margin-right: 1em;
+}
+.showbar #search-input {
+  padding: 0.2em;
+  border: none;
+  background-color: white;
+}
+.showbar i {
+  cursor: pointer;
 }
 .showbar .line {
   display: flex;
