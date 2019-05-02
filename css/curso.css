@@ -15,7 +15,6 @@
 }
 
 .showbar #title {
-  /* background-color: red; */
   margin-left: 10px;
   margin-bottom: 14px;
 }
@@ -85,13 +84,11 @@
   align-items: center;
 }
 .showbar #left-div {
-  /* background-color: red; */
   color: #00b8d4;
   margin-left: 10px;
   font-weight: bold;
 }
 .showbar #right-div {
-  /* background-color: green; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
