@@ -1,0 +1,133 @@
+/* materialize checkbox fix: */
+[type="checkbox"].filled-in:checked + span:not(.lever)::after {
+  z-index: 1 !important;
+  background-color: #ffb300;
+  border: 2px solid #ff8f00;
+}
+.showbar .text {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+[type="checkbox"].filled-in + span:not(.lever)::before,
+[type="checkbox"].filled-in + span:not(.lever)::after {
+  z-index: 1 !important;
+}
+
+.showbar #title {
+  /* background-color: red; */
+  margin-left: 10px;
+  margin-bottom: 14px;
+}
+.showbar #title h5 {
+  font-weight: 300;
+}
+.showbar #title h5,
+.showbar #title p {
+  color: #ff6f00;
+}
+.showbar #buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  cursor: pointer;
+}
+.showbar .button {
+  border: none;
+  border-radius: 6px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.showbar i {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.showbar .upper-btn {
+  margin-right: 10px;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+.showbar #checklist {
+  color: #ffa000;
+}
+.showbar #download {
+  color: #00b8d4;
+}
+.showbar #add {
+  color: #ffa000;
+  font-weight: bold;
+}
+.showbar #checklist-div {
+  display: none;
+  border: none;
+  border-left: 5px solid #ff6f00;
+  margin-top: 1%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.local-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.local-row label {
+  margin-left: 10px;
+  margin-bottom: -10px;
+}
+.showbar #bar {
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.showbar #left-div {
+  /* background-color: red; */
+  color: #00b8d4;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.showbar #right-div {
+  /* background-color: green; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.showbar #add {
+  padding-right: 3%;
+  margin-right: 3%;
+}
+
+.showbar #collaborators {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.showbar #open-remove {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.showbar #remove,
+.showbar #open {
+  font-weight: bold;
+  font-size: 0.9em;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.showbar #open {
+  color: #00b8d4;
+}
+.showbar #remove {
+  color: #ffa000;
+}
+.showbar .row {
+  margin-top: 2%;
+  margin-left: 0px;
+  margin-right: 0px;
+}

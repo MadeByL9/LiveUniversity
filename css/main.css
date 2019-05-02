@@ -132,3 +132,12 @@ img#background {
 .showbar #collaborators p {
   margin-right: 1em;
 }
+.showbar .open-button {
+  background-color: #eeeeee !important;
+  border: none;
+  border-radius: 6px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
