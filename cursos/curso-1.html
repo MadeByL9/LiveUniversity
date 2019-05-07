@@ -15,9 +15,14 @@
     <link rel="stylesheet" href="../css/main.css" />
     <link rel="stylesheet" href="../css/curso.css" />
     <link rel="stylesheet" href="../css/search-bar.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
     <title>14 Práticas de Negociação - Live University</title>
   </head>
   <body class="grey lighten-4">
+    <!-- sidenav button -->
+    <div class="sidenav-button">
+      <i class="material-icons">dehaze</i>
+    </div>
     <!-- userbar -->
     <div class="userbar">
       <div id="text" style="margin-right: 15px">
@@ -61,7 +66,7 @@
       </li>
     </ul>
     <!-- showbar -->
-    <div class="showbar white">
+    <div class="showbar">
       <div id="title">
         <h5>14 Práticas de Negociação</h5>
         <p style="margin-top: -8px">03 de Agosto de 2018</p>
@@ -94,11 +99,19 @@
           <!-- search input -->
           <div id="search">
             <input
+              id="normal-search"
               type="text"
               placeholder="Pesquisar"
-              style="margin-bottom: 0px;"
+              style="margin-bottom: 0px;margin-left: 25px;"
             />
-            <i id="search-icon" class="material-icons grey-text lighten-3"
+            <input
+              id="small-search"
+              type="text"
+              style="margin-bottom: 0px;margin-left: 25px;"
+            /><i
+              id="search-icon"
+              style="margin-right:5px;padding-right:8px"
+              class="material-icons grey-text lighten-3"
               >search</i
             >
           </div>
@@ -119,9 +132,16 @@
         </div>
         <div class="col s5" id="open-remove">
           <div class="button grey lighten-3"><span id="open">ABRIR</span></div>
-          <div class="button grey lighten-3" id="remove">
-            <span>REMOVER</span>
+          <div class="button grey lighten-3">
+            <span id="remove">REMOVER</span>
           </div>
+        </div>
+      </div>
+      <div class="col s5" id="open-remove-small">
+        <div class="button grey lighten-3"><span id="open">ABRIR</span></div>
+        <br />
+        <div class="button grey lighten-3">
+          <span id="remove">REMOVER</span>
         </div>
       </div>
       <div id="collaborators" class="row">

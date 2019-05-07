@@ -32,8 +32,8 @@
   cursor: pointer;
 }
 .showbar .button {
+  cursor: pointer;
   border: none;
-  border-radius: 6px;
   margin-left: 10px;
   display: flex;
   flex-direction: row;
@@ -91,7 +91,7 @@
 .showbar #right-div {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .showbar #add {
   padding-right: 3%;
@@ -99,11 +99,6 @@
 }
 
 .showbar #collaborators {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.showbar #open-remove {
   display: flex;
   flex-direction: row;
   align-items: center;

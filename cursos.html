@@ -17,6 +17,10 @@
     <title>Cursos - Live University</title>
   </head>
   <body class="grey lighten-4">
+    <!-- sidenav button -->
+    <div class="sidenav-button">
+      <i class="material-icons">dehaze</i>
+    </div>
     <!-- userbar -->
     <div class="userbar">
       <div id="text" style="margin-right: 15px">
@@ -63,10 +67,16 @@
     <!-- showbar -->
     <div class="showbar white">
       <h5 id="title" class="amber-text darken-2">Cursos</h5>
-      <div id="search" style="margin-left:75%;">
+      <div class="search" id="search">
         <input
+          id="normal-search"
           type="text"
           placeholder="Pesquisar"
+          style="margin-bottom: 0px;margin-left: 25px;"
+        />
+        <input
+          id="small-search"
+          type="text"
           style="margin-bottom: 0px;margin-left: 25px;"
         /><i
           id="search-icon"
@@ -102,7 +112,6 @@
         </div>
       </div>
     </div>
-    <script src=""></script>
     <script
       src="https://code.jquery.com/jquery-3.4.0.min.js"
       integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="

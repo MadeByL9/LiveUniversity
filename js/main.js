@@ -1,6 +1,34 @@
 let checklist = [];
+let isNavbarClicked = false;
 
 $(document).ready(function() {
+  // responsive sidenav
+  $(".sidenav-button").click(function(e) {
+    if (!isNavbarClicked) {
+      e.preventDefault();
+      $(".sidenav").show();
+      $(".sidenav").attr("style", "transform:translateX(0)");
+      isNavbarClicked = true;
+      console.log(1);
+    }
+  });
+  $(".showbar").click(function(e) {
+    e.preventDefault();
+    if (isNavbarClicked) {
+      $(".sidenav").toggle();
+      $(".sidenav").sidenav();
+      isNavbarClicked = false;
+    }
+  });
+  $(".userbar").click(function(e) {
+    e.preventDefault();
+    if (isNavbarClicked) {
+      $(".sidenav").toggle();
+      $(".sidenav").sidenav();
+      isNavbarClicked = false;
+    }
+  });
+
   $("#btn").click(function(e) {
     e.preventDefault();
     location.reload();
